@@ -1,0 +1,124 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+:root {
+    --whitebg:white;
+    --primarybg: #7562E0;
+    --graybg: #1F1F1F;
+    --blackbg: #131112;
+    --textblack: #131112;
+    --primarytext: #7562E0;
+    --blue: #1085BF;
+    --whitetext: white;
+    --graytext: #1F1F1F;
+    --lightgray: #BCBCBC;
+    --gray: #101010;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+.header{
+    background: var(--graybg);
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: var(--whitetext);
+}
+#hero {
+	background: var(--graybg);
+	text-align: start;
+	padding: 40px 0;
+}
+.hero_left h1 {
+	color: var(--whitetext);
+	line-height: 100px;
+}
+.hero_left p {
+	color: var(--whitetext);
+	padding: 20px 0;
+}
+.hire_btn {
+	color: var(--whitetext);
+	background: var(--primarybg);
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+}
+.social {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	overflow: hidden;
+	align-items: center;
+}
+.social img {
+	width: 60%;
+	padding-top: 15%;
+}
+.logo a {
+    color: var(--primarytext);
+    text-decoration: none;
+    font-size: 20px;
+}
+#info {
+    background: var(--blackbg);
+}
+.experience p {
+	color: var(--whitetext);
+	font-size: 22px;
+	font-weight: 600;
+}
+.experience p:first-child {
+	font-size: 110px;
+	color: var(--primarytext);
+}
+.info_area h2 {
+	color: var(--whitetext);
+	text-align: left;
+}
+.product_designer {
+	height: 250px;
+	background: var(--primarybg);
+	padding-top: 90px;
+	padding-left: 30px;
+	width: 230px;
+}
+.product_designer h5 {
+	color: var(--whitetext);
+	margin: 10px 0;
+}
+.product_designer p {
+	color: var(--whitetext);
+}
+.designer {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+	justify-content: center;
+	margin-top: 60px;
+	position: absolute;
+}
+.frontend {
+	background: var(--graybg);
+}
+#portfolio {
+	background: var(--graybg);
+	padding: 50px 0;
+	padding-top: 200px;
+}
+.explore p {
+	color: var(--lightgray);
+	padding: 20px;
+}
+.explore button {
+	color: var(--primarytext);
+	background: none;
+	border: none;
+	padding: 20px;
+}
